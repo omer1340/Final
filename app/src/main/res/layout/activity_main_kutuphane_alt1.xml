@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainKutuphaneAlt1">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="328dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="16dp"
+        android:text="Şems-i Sivasi İl Halk Kütüphanesi"
+        android:textColor="@color/purple_500"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="355dp"
+        android:layout_height="244dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/kutup1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="352dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Adres: Örtülüpınar, 36-Tekel Sk No:1, 58030 Sivas Merkez/Sivas"
+        android:textColor="@color/purple_500"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="351dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="115dp"
+        android:text="Saatler: Kapanış saati: 22:00"
+        android:textColor="@color/purple_500"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

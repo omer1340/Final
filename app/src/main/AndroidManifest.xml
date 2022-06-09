@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deneme">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Deneme">
+        <activity
+            android:name=".MainOtoparklarAlt2"
+            android:exported="false" />
+        <activity
+            android:name=".MainOtoparklarAlt1"
+            android:exported="false" />
+        <activity
+            android:name=".MainOtoparklar"
+            android:exported="false" />
+        <activity
+            android:name=".MainIbadetYeriAlt3"
+            android:exported="false" />
+        <activity
+            android:name=".MainIbadetYeriAlt2"
+            android:exported="false" />
+        <activity
+            android:name=".MainIbadetYeriAlt1"
+            android:exported="false" />
+        <activity
+            android:name=".MainIbadetYeri"
+            android:exported="false" />
+        <activity
+            android:name=".MainMarketAlt3"
+            android:exported="false" />
+        <activity
+            android:name=".MainMarketAlt2"
+            android:exported="false" />
+        <activity
+            android:name=".MainMarketAlt1"
+            android:exported="false" />
+        <activity
+            android:name=".MainMarket"
+            android:exported="false" />
+        <activity
+            android:name=".MainOtellerAlt2"
+            android:exported="false" />
+        <activity
+            android:name=".MainOtellerAlt1"
+            android:exported="false" />
+        <activity
+            android:name=".MainOteller"
+            android:exported="false" />
+        <activity
+            android:name=".MainTarihiYerlerAlt3"
+            android:exported="false" />
+        <activity
+            android:name=".MainTarihiYerlerAlt2"
+            android:exported="false" />
+        <activity
+            android:name=".MainTarihiYerlerAlt1"
+            android:exported="false" />
+        <activity
+            android:name=".MainTarihiYerler"
+            android:exported="false" />
+        <activity
+            android:name=".MainKutuphaneAlt2"
+            android:exported="false" />
+        <activity
+            android:name=".MainKutuphaneAlt1"
+            android:exported="false" />
+        <activity
+            android:name=".MainKutuphane"
+            android:exported="false" />
+        <activity
+            android:name=".MainParklarAlt3"
+            android:exported="false" />
+        <activity
+            android:name=".MainParklarAlt2"
+            android:exported="false" />
+        <activity
+            android:name=".MainParklarAlt1"
+            android:exported="false" />
+        <activity
+            android:name=".MainParklar"
+            android:exported="false" />
+        <activity
+            android:name=".MainKategori"
+            android:exported="false" />
+        <activity
+            android:name=".MainKayitOl"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

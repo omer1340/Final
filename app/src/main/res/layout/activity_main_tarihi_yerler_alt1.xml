@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainTarihiYerlerAlt1">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="260dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="16dp"
+        android:text="Gök Medrese"
+        android:textColor="@color/purple_500"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="323dp"
+        android:layout_height="264dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/tarihi1" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="358dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Adres: Gökmedrese, Gökmedrese Cad., 58070 Merkez/Sivas Merkez/Sivas"
+        android:textColor="@color/purple_500"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="351dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Saatler: Pazartesi Kapalı Diğer günler 10:00–18:00"
+        android:textColor="@color/purple_500"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="351dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="61dp"
+        android:text="Ücret: Müze kart varsa bedava , yoksa 10 Tl'dir."
+        android:textColor="@color/purple_500"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
